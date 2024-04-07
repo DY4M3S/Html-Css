@@ -1,0 +1,63 @@
+.cabecario{
+    margin-bottom: 75px;
+}
+
+.cabecario1{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.cabecario2{
+    margin-left: 45%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+}
+
+.centro{
+    margin-left: 40%;
+    margin-bottom: 60px;
+}
+
+.centro1{
+    margin-left: 27%;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.centro2{
+    margin-bottom: 15px;
+}
+
+.centro3{
+    margin-left: auto;
+    cursor: pointer;
+    background-color: rgb(73, 176, 202);
+    text-decoration: solid;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.centro4{
+    margin-right: 215px;
+}
+
+.centro5{
+    cursor: pointer;
+    background-color: rgb(73, 202, 73); ;
+    text-decoration: solid;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.centro6{
+    margin-left: auto;
+    cursor: pointer;
+    background-color: rgb(228, 68, 68);
+    text-decoration: solid;
+    border: 2px solid black;
+    border-radius: 10px;
+}
