@@ -16,6 +16,11 @@
     text-align: center;
 }
 
+.centro0{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
 .centro{
     margin-left: 40%;
     margin-bottom: 60px;
@@ -36,19 +41,21 @@
     margin-left: auto;
     cursor: pointer;
     background-color: rgb(73, 176, 202);
-    text-decoration: solid;
     border: 2px solid black;
     border-radius: 10px;
 }
 
 .centro4{
     margin-right: 215px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: auto;
 }
 
 .centro5{
     cursor: pointer;
     background-color: rgb(73, 202, 73); ;
-    text-decoration: solid;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -57,7 +64,40 @@
     margin-left: auto;
     cursor: pointer;
     background-color: rgb(228, 68, 68);
-    text-decoration: solid;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.centro7{
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration-style: solid;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 19%;
+}
+
+.fim {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fim1 span {
+    font-weight: bold;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
 }
