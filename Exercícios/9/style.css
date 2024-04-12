@@ -1,36 +1,61 @@
+body{
+    margin: 0;
+}
+
 .cabecario{
     margin-bottom: 75px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cabecario1{
-    text-align: center;
+    text-align: left;
     margin-bottom: 90px;
+    margin-left: 20px;
+    
 }
 
 .cabecario2{
-    margin-left: 45%;
     font-size: 15px;
     border-radius: 10px;
-    border: 2px solid black;
     color: black;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
-.centro0{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 14px;
+.cabecario3{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+    font-size: 15px;
+    color: white;
+    list-style-type: none;
+    margin-left: 10px;
 }
+
+.cabecario4{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
 
 .centro{
     margin-left: 40%;
     margin-bottom: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    bottom: 60px;
 }
 
 .centro1{
+    margin-bottom: 400px;
     margin-left: 27%;
     list-style-type: none;
     padding: 0;
-    
 }
 
 .centro2{
@@ -43,6 +68,8 @@
     background-color: rgb(73, 176, 202);
     border: 2px solid black;
     border-radius: 10px;
+    height: 40px;
+    width: 60px;
 }
 
 .centro4{
@@ -51,13 +78,17 @@
     text-decoration-style: solid;
     text-decoration-color: black;
     text-decoration-thickness: auto;
+    font-size: 20px;
 }
 
-.centro5{
+.centro5[type="checkbox"]{
     cursor: pointer;
-    background-color: rgb(73, 202, 73); ;
     border: 2px solid black;
     border-radius: 10px;
+    width: 17px; /* largura desejada */
+    height: 17px; /* altura desejada */
+   
+    
 }
 
 .centro6{
@@ -66,20 +97,33 @@
     background-color: rgb(228, 68, 68);
     border: 2px solid black;
     border-radius: 10px;
+    height: 40px;
+    width: 60px;
 }
 
 .centro7{
     border-radius: 5px;
     border: 2px solid black;
     text-decoration-style: solid;
+    font-size: 20px;    
 }
 
-footer {
+.centro8{
+    cursor: pointer;
+    background-color: rgb(73, 202, 73); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.fim0 {
     background-color: black;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px ;
     margin-top: 19%;
+    bottom: 0;
 }
+
 
 .fim {
     max-width: 1200px;
@@ -89,15 +133,10 @@ footer {
     align-items: center;
 }
 
-.fim1 span {
-    font-weight: bold;
-}
-
-.social-links a {
-    margin-right: 10px;
-}
 
 .social-links img {
-    width: 30px;
-    height: 30px;
+    width: auto;
+    height: 50px;
+    background-color: black;
+    margin-right: 1px; 
 }
