@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'GG Sans';
+    /* src: url(font/gg\ sans\ Bold.ttf) format('truetype');
+    src: url(font/gg\ sans\ Medium.ttf) format('truetype'); */
+    src: url(font/gg\ sans\ Regular.ttf) format('truetype');
+    /* src: url(font/gg\ sans\ Semibold.ttf) format('truetype'); */
+}
+
+header img,
+header h1,
+header nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body {
+    background-size: 100%;
+    background-image: url("imgs/white-texture.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-top: 5%;
+}
+
+header {
+    overflow: hidden;
+    background-color: orange;
+    padding: 0px 25px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+header h1   {
+    font-size: 25px;
+}
+
+body h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'GG Sans';
+    color: white;
+    
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    margin-left: 10%;
+}
+
+nav a{
+    margin-left: 10px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+.item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px; /* Altura fixa */
+  }
+  
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.styled-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.styled-list li {
+    position: relative;
+    padding-left: 20px; /* Espaço para o ícone */
+    margin-bottom: 10px;
+}
+
+/* Estilo dos ícones (opcional) */
+.styled-list li::before {
+    content: "\2022"; /* Código do caractere para um círculo (•) */
+    position: absolute;
+    left: 0;
+    color: orange; /* Cor do ícone */
+    font-size: 1.2em; /* Tamanho do ícone */
+}
