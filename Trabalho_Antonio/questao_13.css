@@ -1,0 +1,63 @@
+.del {
+    color: red;}
+
+.h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.header {
+    background-color: blue;
+    color: azure;
+    width: 100%;
+}
+
+.promo {
+    display: flex;
+    margin-bottom: 50px;
+}
+.info {
+    text-align: justify;
+
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.h2 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.p {
+    font-size: 20px;
+}
+.p1{
+    font-size: 30px;
+    margin: 0px;
+}
+.p2{
+    font-size: 40px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.b {
+    font-size: 50px;
+    color: purple;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    background-color: blue;
+    color: azure;
+    padding: 20px;
+}
+
+.img {
+    width: 300px;
+    text-align: left;
+    margin-left: 20px;
+}

@@ -1,0 +1,28 @@
+
+.container {
+  display: flex;
+}
+#h1{
+  font-size: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.Pessoa{
+  width: 250px;
+  margin-left: 100px;
+  border-radius: 50%;
+  text-align: left;
+}
+.Profile{
+  font-size: 30px;
+  text-align: justify;
+  padding: 0px;
+}
+.p {
+  width: 500px;
+  border: 1px solid black;
+  overflow-wrap: break-word;
+}
