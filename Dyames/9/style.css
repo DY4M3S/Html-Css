@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-image: url(f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecario{
+    margin-bottom: 75px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecario1{
+    text-align: left;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    
+}
+
+.cabecario2{
+    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cabecario3{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+    font-size: 15px;
+    color: white;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.cabecario4{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.centro{
+    margin-left: 40%;
+    margin-bottom: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    bottom: 60px;
+}
+
+.centro1{
+    margin-bottom: 400px;
+    margin-left: 27%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.centro2{
+    margin-bottom: 15px;
+}
+
+.centro3{
+    margin-left: auto;
+    cursor: pointer;
+    background-color: rgb(73, 176, 202);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+}
+
+.centro4{
+    margin-right: 215px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: auto;
+    font-size: 20px;
+}
+
+.centro5[type="checkbox"]{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 17px; /* largura desejada */
+    height: 17px; /* altura desejada */
+   
+    
+}
+
+.centro6{
+    margin-left: auto;
+    cursor: pointer;
+    background-color: rgb(228, 68, 68);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+}
+
+.centro7{
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration-style: solid;
+    font-size: 20px;    
+}
+
+.centro8{
+    cursor: pointer;
+    background-color: rgb(73, 202, 73); ;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.fim0 {
+    background-color: black;
+    color: #fff;
+    padding: 20px ;
+    margin-top: 19%;
+    bottom: 0;
+}
+
+
+.fim {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.social-links img {
+    width: auto;
+    height: 50px;
+    background-color: black;
+    margin-right: 1px; 
+}

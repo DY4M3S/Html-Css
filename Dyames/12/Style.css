@@ -1,0 +1,173 @@
+    body{
+        margin: 0;
+        background-image: url(/Projetos/Dyames/html-css/12/fundo.jpg);
+        background-repeat: no-repeat;   
+        background-size: cover;
+    }
+
+    .cabecario {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        font-size: 28px;
+    }
+    
+    .cabecario1 {
+        text-align: center;
+        margin-bottom: 90px;
+        margin-left: 20px;
+        font-style: oblique;
+    }
+    
+    .cabecario2 {
+        font-size: 15px;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    .cabecario3 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    
+    .cabecario3 li {
+       display: flex;
+       cursor: pointer;
+    }
+    
+    .cabecario4 {
+        margin-right: 25px;
+        color: #ffffff;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;    
+    }
+    
+    .cabecario4 a {
+        margin-right: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .centro{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique; 
+        text-align: center;
+        color: white;
+        margin-bottom: 150px;
+    }
+
+    .centro1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique; 
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+    }
+
+    .centro2{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique; 
+    }
+
+
+    .checkbox-planeta {
+        display: none;
+    }
+    
+    .label-planeta {
+        cursor: pointer; /* Altera o cursor para indicar que a imagem é clicável */
+        display: flex; /* Permite que o rótulo se ajuste ao tamanho da imagem */
+        justify-content: center;
+    }
+    
+    /* CSS para a imagem do planeta */
+    .planeta-img {
+        margin-top: 10px;
+        width: 15%; /* Define o tamanho inicial da imagem */
+        transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+    }
+    
+    /* CSS para expandir a imagem do planeta ao clicar */
+    .checkbox-planeta:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); /* Aumenta o tamanho da imagem em (4.0 vezes) */
+    }
+    
+     
+     .checkbox-Mercúrio:checked + .label-planeta .planeta-img {
+        transform: scale(1.0); 
+    }
+
+    .checkbox-Vênus:checked + .label-planeta .planeta-img {
+        transform: scale(4.0);
+    }
+
+   
+    .checkbox-Terra:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+    .checkbox-Lua:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+    
+    .checkbox-Marte:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+    
+    .checkbox-Júpiter:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+     
+    .checkbox-Saturno:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+    .checkbox-Urano:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+    .checkbox-Netuno:checked + .label-planeta .planeta-img {
+        transform: scale(4.0); 
+    }
+
+    .fim0 {
+        color: #fff;
+        padding: 20px ;
+        margin-top: 19%;
+        bottom: 0;
+    }
+
+
+    .fim {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .social-links img {
+        width: auto;
+        height: 50px;
+        margin-right: 1px; 
+        background-color: rgba(0, 0, 0, 0);    
+    }

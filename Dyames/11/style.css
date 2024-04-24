@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, rgb(6, 101, 145), rgb(120, 180, 220));
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.cabecario{
+    background-color:  rgb(6, 101, 145);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    border: 3px groove  rgb(0, 0, 0);
+    border-bottom: 8px  groove  rgb(0, 0, 0);
+}
+
+.cabecario1{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecario2{
+    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cabecario3{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+    list-style-type: none;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.cabecario4{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.centro1{
+    text-align: center;
+    margin-right: 119px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.centro2{
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: solid black 5px; ;
+    margin: 0px 35px;
+    padding: 20px 35px;
+    background-color: #ffffffb4;  
+}
+
+.centro3{
+    margin: 50px 35px 0px ;
+    border: solid black 5px;
+    padding: 0px 20px 20px;
+    background-color: #ffffffb4; 
+}
+
+.centro4{   
+    display: flex;  
+    margin-top: 40px;
+    align-items: center;
+}
+
+.img{
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.imgc{
+    width: 700px;
+    margin: 25px 25%;
+}
+
+.fim0 {
+    background-color:  rgb(6, 101, 145);
+    color: #fff;
+    padding: 20px ;
+    margin-top: 19%;
+    bottom: 0;
+    border: 3px groove  rgb(0, 0, 0);
+    border-top: 8px  groove  rgb(0, 0, 0);
+}
+
+
+.fim {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.social-links img {
+    width: auto;
+    height: 50px;
+    background-color: black;
+    margin-right: 1px; 
+}
