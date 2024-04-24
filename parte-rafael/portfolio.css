@@ -70,3 +70,43 @@ nav a{
     margin-left: 10px;
     
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+.item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px; /* Altura fixa */
+  }
+  
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.styled-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.styled-list li {
+    position: relative;
+    padding-left: 20px; /* Espaço para o ícone */
+    margin-bottom: 10px;
+}
+
+/* Estilo dos ícones (opcional) */
+.styled-list li::before {
+    content: "\2022"; /* Código do caractere para um círculo (•) */
+    position: absolute;
+    left: 0;
+    color: orange; /* Cor do ícone */
+    font-size: 1.2em; /* Tamanho do ícone */
+}

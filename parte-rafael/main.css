@@ -130,3 +130,19 @@ section{
     font-size: 1.2em; /* Tamanho do ícone */
 }
 
+.social-icons {
+    margin-top: 20px; /* Adiciona espaço entre o parágrafo e os ícones */
+    display: flex; /* Usa flexbox para alinhar os ícones */
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+}
+
+.social-icons a {
+    margin-right: 10px; /* Adiciona espaço entre os ícones */
+    color: #333; /* Define a cor dos ícones */
+    font-size: 24px; /* Define o tamanho dos ícones */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Define a cor quando o mouse passa por cima dos ícones */
+}
+
